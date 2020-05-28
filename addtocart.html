@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add To Cart</title>
+
+    <script src="./js/addtocart.js"></script>
+  </head>
+  <body>
+    <a href="./index.html">Back</a>
+    <h1>Add to cart</h1>
+
+    <h4>Products</h4>
+    <div id="products">
+      <div class="product">
+        <h5>Grater</h5>
+        <p>
+          tenetur earum officia possimus
+        </p>
+        <button value="0" class="add" onclick="addToCart(this)">
+          Add To Cart
+        </button>
+        <small></small>
+        <button
+          class="remove"
+          style="visibility: hidden; display: none;"
+          onclick="removeFromCart(this)"
+        >
+          Remove
+        </button>
+      </div>
+
+      <div class="product">
+        <h5>Dior Glass</h5>
+        <p>
+          tenetur earum officia possimus
+        </p>
+        <button value="0" class="add" onclick="addToCart(this)">
+          Add To Cart
+        </button>
+        <small></small>
+        <button
+          class="remove"
+          style="visibility: hidden; display: none;"
+          onclick="removeFromCart(this)"
+        >
+          Remove
+        </button>
+      </div>
+
+      <div class="product">
+        <h5>Hunny Cup</h5>
+        <p>
+          tenetur earum officia possimus
+        </p>
+        <button value="0" class="add" onclick="addToCart(this)">
+          Add To Cart
+        </button>
+        <small></small>
+        <button
+          class="remove"
+          style="visibility: hidden; display: none;"
+          onclick="removeFromCart(this)"
+        >
+          Remove
+        </button>
+      </div>
+    </div>
+
+    <h4>Cart</h4>
+    <div id="cart"></div>
+  </body>
+</html>
